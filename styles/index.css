@@ -1,0 +1,515 @@
+.clear {
+  height: 1px;
+  clear: both;
+}
+
+body {
+  background-color: #000;
+}
+
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input, textarea {
+  color: #333 !important;
+}
+
+.input-group .form-control {
+  border-right: none;
+  padding-right: 0px;
+}
+
+.input-group-addon {
+  border-left: none !important;
+  background-color: #FFF;
+  color: #999;
+  font-family: inherit;
+  font-size: 17px;
+  text-align: left;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .no-padding-xs {
+    padding: 0px !important;
+  }
+
+  .no-border-xs {
+    border: 0px !important;
+  }
+
+  .text-left-xs {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (max-device-width : 768px) {
+  .no-padding-sm {
+    padding: 0px !important;
+  }
+
+  .no-border-sm {
+    border: 0px !important;
+  }
+
+  .text-left-sm {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  body {
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  body {
+    margin-top: 30px;
+  }
+
+  .no-padding-md {
+    padding: 0px !important;
+  }
+
+  .no-border-md {
+    border: 0px !important;
+  }
+
+  .text-left-md {
+    text-align: left !important;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  .no-padding-lg {
+    padding: 0px !important;
+  }
+
+  .no-border-lg {
+    border: 0px !important;
+  }
+
+  .text-left-lg {
+    text-align: left !important;
+  }
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+}
+
+#nav-mobile-toggle {
+  -moz-transition: height .5s;
+  -ms-transition: height .5s;
+  -o-transition: height .5s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+}
+
+.list-group-naked {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+.list-group-naked li {
+  padding: 4px !important;
+  border: 0px !important;
+  margin: 0px !important;
+}
+
+
+footer {
+  background-color: #FFF;
+  padding: 40px;
+}
+
+.nav {
+  background-color: #FFF;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index: 10000;
+
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15)
+}
+
+.nav a {
+  color: #FFF;
+}
+
+.nav a:hover {
+  text-decoration: none;
+}
+
+#nav-logo {
+  height: 30px;
+  max-width: auto;
+}
+
+.nav-left {
+  padding-top: 5px;
+}
+
+.nav-right {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.nav-locale-select {
+  background: none;
+  border-radius: 3px;
+  border: 1px solid #FFF;
+  padding: 10px;
+  margin: none;
+}
+
+.nav-locale-select option {
+  background: #FFF;
+}
+
+.footer-locale-select {
+  margin-right: 20px;
+  background: none;
+  border: none;
+  padding: none;
+  margin: none;
+}
+
+.text-pretty-huge {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.checkbox-list-wrapper {
+  margin-left: 10px;
+  padding-left: 30px;
+  border-left: 3px solid #999;
+}
+
+.campaign-focus-nav a {
+  text-decoration: none;
+}
+
+.bg-white {
+  background: #FFF;
+}
+
+.campaigns-list {
+
+  padding: 30px;
+
+  padding-top: 60px;
+}
+
+@media screen and (min-width: 600px) {
+  .campaigns-list {
+
+    padding: 60px;
+
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .campaigns-list {
+
+    padding: 140px;
+
+    padding-top: 60px;
+  }
+}
+
+.list-campaign-medium {
+  border: 1px solid #FFF;
+
+  border-radius: 5px;
+
+  padding: 0px;
+
+  background-color: #FFF;
+
+  margin-bottom: 20px;
+}
+
+.list-campaign-medium h3 {
+  margin: 0px;
+
+  margin-bottom: 10px;
+
+  color: #FFF;
+}
+
+@media screen and (min-width: 300px) {
+  .list-campaign-medium-text {
+     display: block;
+     min-height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .list-campaign-medium-text {
+     display: block;
+     min-height: 130px;
+  }
+}
+
+.list-campaign-medium a:hover {
+  text-decoration: none;
+}
+
+.list-campaign-medium-description {
+  padding: 20px;
+}
+
+.list-campaign-medium-description h3 {
+  margin: 0px;
+
+  margin-bottom: 10px;
+
+  color: #FFF;
+}
+
+.list-campaign-feature {
+  background-color: #FFF;
+}
+
+.list-campaign-feature {
+  height: 315px;
+}
+
+.list-campaign-feature-image {
+  height: 315px;
+}
+
+.list-feature-column {
+  padding: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .list-feature-column {
+    padding: 30px;
+
+    padding-bottom: 30px;
+  }
+}
+
+.list-campaign-image {
+  height: 20%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.list-campaign-image-wrapper {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.input-slider-lg {
+  display: block;
+  padding-top: 30px;
+  position: relative;
+  height: 60px;
+  cursor: pointer;
+}
+
+.input-slider-rail {
+  display: block;
+  position: relative;
+  width: 95%;
+  margin-left: 4px;
+  height: 4px;
+  z-index: 4000;
+  background-color: #D3D3D3;
+  cursor: pointer;
+}
+
+.input-slider-rail-highlight {
+  display: block;
+  position: relative;
+  width: 0%;
+  height: 4px;
+  z-index: 4000;
+  background-color: #ff7518;
+  cursor: pointer;
+}
+
+.input-slider-bar {
+  position: absolute;
+  top: -13px;
+  z-index: 4001;
+  left: 0%;
+  height: 30px;
+  width: 30px;
+  background-color: #999;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+}
+
+.text-huge {
+  font-size: 50px;
+}
+
+.text-gray {
+  color: #FFF;
+}
+
+.text-break-all {
+  word-break: break-all;
+}
+
+.text-light-gray {
+  color: #FFF;
+}
+
+.bs-wizard {
+    margin-top: 40px;
+}
+
+.current h3 {
+  font-weight: bold;
+}
+
+/*Form Wizard*/
+ .bs-wizard {
+    border-bottom: solid 1px #e0e0e0;
+    padding: 0 0 10px 0;
+}
+.bs-wizard > .bs-wizard-step {
+    padding: 0;
+    position: relative;
+}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {
+}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {
+    color: #595959;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {
+    position: absolute;
+    cursor: default;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: #b79d78;
+    top: 77px;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    border-radius: 50%;
+}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {
+    content:' ';
+    width: 14px;
+    cursor: default;
+    height: 14px;
+    background: #b79d78;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.bs-wizard > .bs-wizard-step > .progress {
+    position: relative;
+    border-radius: 0px;
+    height: 8px;
+    box-shadow: none;
+    margin: 20px 0;
+}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {
+    width:0px;
+    box-shadow: none;
+    background: #b79d78;
+}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {
+    width:100%;
+}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {
+    width:50%;
+}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {
+    width:0%;
+}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {
+    width: 100%;
+}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {
+    background-color: #cccccc;
+}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {
+    opacity: 0;
+}
+.bs-wizard > .bs-wizard-step:first-child > .progress {
+    left: 50%;
+    width: 50%;
+}
+.bs-wizard > .bs-wizard-step:last-child > .progress {
+    width: 50%;
+}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot {
+    /*pointer-events: none;*/
+}
+/*END Form Wizard*/
+
+/* modal stuff */
+.modal-blur {
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: fixed;
+  z-index: 20000;
+  display: block;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.modal-weifund {
+  z-index: 100000;
+  top: 12%;
+}
+
+.modal-dialog {
+  z-index: 100000;
+}
+
+/* Tooltips */
+span[data-tooltip] {
+  border-bottom: 1px dotted #FFF;
+}
+
+span[data-tooltip]::before {
+    background: #FFF;
+    bottom: 9999px;
+    color: #FFF;
+    content: attr(data-tooltip);
+    right: 35px;
+    line-height: 24px;
+    max-width: 33%;
+    padding: 12px;
+    position: fixed;
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+    z-index: 999;
+}
+
+span[data-tooltip]:hover::before {
+    opacity: 1;
+    bottom: 35px;
+}
